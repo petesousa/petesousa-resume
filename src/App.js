@@ -112,7 +112,7 @@ class App extends Component {
             </li>
             <li>
               <i className="fab fa-github"></i>
-              <a href="http://github.com/pedrohenriquecsousa">github.com/pedrohenriquecsousa</a>
+              <a href="http://github.com/petesousa">github.com/pedrohenriquecsousa</a>
             </li>
             <li>
               <i className="fas fa-envelope"></i>
