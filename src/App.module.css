@@ -47,10 +47,7 @@ main { padding: 48px; max-width: 868px; margin: 0 auto;}
 
 .brand h4 { color: var(--carbon); }
 
-.about p,
-.projects p,
-.skills p,
-.experience ul li { text-align: justify; }
+.about p { text-align: justify; }
 
 .skills ul li,
 .experience ul li { margin-bottom: 4px; }
@@ -94,5 +91,10 @@ main { padding: 48px; max-width: 868px; margin: 0 auto;}
   .skills { grid-column: 8/13; grid-row: 3/5; }
   .experience { grid-column: 1/7; grid-row: 4/9; }
   .courses { grid-column: 8/13; grid-row: 5/6; }
+
+  .about p,
+  .projects p,
+  .skills p,
+  .experience ul li { text-align: justify; }
 
 }
