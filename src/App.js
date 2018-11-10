@@ -37,7 +37,7 @@ class App extends Component {
 
         <div className={styles.skills}>
           <h3>SKILLS</h3>
-          <p>Currently focusing on <span className={styles.blue}>Javascript, React, Redux,</span> Functional Programming, semantic <span className={styles.blue}>HTML</span>, <span className={styles.blue}>CSS Modules</span> and responsive webdesign.</p>
+          <p>Currently focusing on <span className={styles.blue}>Javascript, React, Redux,</span> Functional Programming, <span className={styles.blue}>semantic HTML</span>, <span className={styles.blue}>CSS Modules</span> and responsive webdesign.</p>
           <h5>Familiar or have worked with:</h5>
           <ul className={styles.teal}>
             <li>Node js</li>

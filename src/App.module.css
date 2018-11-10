@@ -47,8 +47,6 @@ main { padding: 48px; max-width: 868px; margin: 0 auto;}
 
 .brand h4 { color: var(--carbon); }
 
-.about p { text-align: justify; }
-
 .skills ul li,
 .experience ul li { margin-bottom: 4px; }
 
