@@ -29,17 +29,16 @@ class App extends Component {
             <p>Single Page Application created using React, Redux, Redux-Saga and the YouTube API search.</p>
             <ul>
               <li>
-                Live
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://petesousa-yt-react-redux.firebaseapp.com/">here</a>
+                Live <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://petesousa-yt-react-redux.firebaseapp.com/">here</a>
               </li>
-              <li>Code on
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/petesousa/yt-react-redux">github</a>
+              <li>
+                Code on <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://github.com/petesousa/yt-react-redux">github</a>
               </li>
             </ul>
           </div>
