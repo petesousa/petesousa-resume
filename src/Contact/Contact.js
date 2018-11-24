@@ -13,7 +13,10 @@ const Contact = () => {
         </li>
         <li>
           <i className="fab fa-github"></i>
-          <a href="http://github.com/petesousa">github.com/petesousa</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="http://github.com/petesousa">github.com/petesousa</a>
         </li>
         <li>
           <i className="fas fa-envelope"></i>
