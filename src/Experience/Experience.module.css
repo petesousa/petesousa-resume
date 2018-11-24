@@ -1,0 +1,17 @@
+
+.blue { color: var(--blue); }
+.teal { color: var(--teal); }
+
+.experience ul { margin-bottom: 20px; }
+.experience ul { list-style: disc; }
+.experience ul li { margin-bottom: 4px; }
+
+.experience span.cityTag { font-size: 0.8em; color: var(--gray); }
+
+@media (min-width: 580px) {
+
+  .experience { padding-left: 24px; }
+  .experience { grid-column: 1/7; grid-row: 4/9; }
+  .experience ul li { text-align: justify; }
+
+}

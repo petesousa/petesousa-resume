@@ -1,0 +1,11 @@
+
+.projects div { margin-bottom: 20px; }
+.projects ul li { margin-bottom: 0; }
+
+@media (min-width: 580px) {
+
+  .projects { padding-left: 24px; }
+  .projects { grid-column: 1/7; grid-row: 3/4; }
+  .projects p { text-align: justify; }
+
+}

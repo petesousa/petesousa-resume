@@ -1,0 +1,9 @@
+
+.blue { color: var(--blue); }
+
+.brand { margin-bottom: 20px; }
+.brand h4 { color: var(--carbon); }
+
+@media (min-width: 580px) {
+  .brand { grid-column: 1/6; grid-row: 1/2; }
+}

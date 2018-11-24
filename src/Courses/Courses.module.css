@@ -1,0 +1,9 @@
+
+.courses ul span { font-size: 0.8em; color: var(--gray); }
+
+@media (min-width: 580px) {
+
+  .courses { padding-left: 24px; }
+  .courses { grid-column: 8/13; grid-row: 5/6; }
+
+}

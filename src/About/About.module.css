@@ -1,0 +1,7 @@
+@media (min-width: 580px) {
+
+  .about { padding-left: 24px; }
+  .about { grid-column: 1/13; grid-row: 2/3; }
+  .about p { text-align: justify; }
+
+}

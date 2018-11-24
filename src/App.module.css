@@ -31,68 +31,19 @@ h3 {
 }
 h4 { color: var(--blue); }
 h5 { font-size: 0.8em; color: var(--gray); margin-bottom: 12px; }
-.skills h5 { font-size: 1em; margin-bottom: 4px; color: var(--carbon); font-weight: normal; }
+
 body {
   color: var(--carbon);
   font-family: 'Roboto Condensed', sans-serif;
 }
 main { padding: 48px; max-width: 868px; margin: 0 auto;}
 
-.brand,
-.projects div,
-.experience ul,
-.contact ul { margin-bottom: 20px; }
-
-.experience ul { list-style: disc; }
-
-.brand h4 { color: var(--carbon); }
-
-.skills ul li,
-.experience ul li { margin-bottom: 4px; }
-
-.projects ul li,
-.contact ul li { margin-bottom: 0; }
-
-.contact li { display: flex; }
-.contact i { padding: 0; padding-right: 8px; }
-
-.experience span.cityTag,
-.courses ul span { font-size: 0.8em; color: var(--gray); }
-
-/* GRID */
-
 @media (min-width: 580px) {
 
-  .about,
-  .projects,
-  .experience,
-  .skills,
-  .courses,
-  .contact { padding-left: 24px; }
   h3 { margin-left: -24px; }
-
-  .contact { display: table; text-align: right; align-self: end; }
-  .contact h3 {display: none;}
-
-  .contact li { display: flex; flex-direction: row-reverse; }
-  .contact i { padding: 0; padding-left: 8px; }
-
   main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
   }
-
-  .brand { grid-column: 1/6; grid-row: 1/2; }
-  .contact { grid-column: 6/13; grid-row: 1/2; }
-  .about { grid-column: 1/13; grid-row: 2/3; }
-  .projects { grid-column: 1/7; grid-row: 3/4; }
-  .skills { grid-column: 8/13; grid-row: 3/5; }
-  .experience { grid-column: 1/7; grid-row: 4/9; }
-  .courses { grid-column: 8/13; grid-row: 5/6; }
-
-  .about p,
-  .projects p,
-  .skills p,
-  .experience ul li { text-align: justify; }
 
 }

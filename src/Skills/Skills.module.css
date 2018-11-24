@@ -1,0 +1,14 @@
+
+.blue { color: var(--blue); }
+.teal { color: var(--teal); }
+
+.skills h5 { font-size: 1em; margin-bottom: 4px; color: var(--carbon); font-weight: normal; }
+.skills ul li { margin-bottom: 4px; }
+
+@media (min-width: 580px) {
+
+  .skills { padding-left: 24px; }
+  .skills { grid-column: 8/13; grid-row: 3/5; }
+  .skills p { text-align: justify; }
+
+}

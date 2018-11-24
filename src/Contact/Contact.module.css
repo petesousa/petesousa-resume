@@ -1,0 +1,16 @@
+
+.contact ul { margin-bottom: 20px; }
+.contact ul li { margin-bottom: 0; }
+.contact li { display: flex; }
+.contact i { padding: 0; padding-right: 8px; }
+
+@media (min-width: 580px) {
+
+  .contact { grid-column: 6/13; grid-row: 1/2; }
+  .contact { padding-left: 24px; }
+  .contact { display: table; text-align: right; align-self: end; }
+  .contact h3 {display: none;}
+  .contact li { display: flex; flex-direction: row-reverse; }
+  .contact i { padding: 0; padding-left: 8px; }
+
+}
