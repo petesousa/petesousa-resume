@@ -7,7 +7,6 @@ import About from './About/About'
 import Projects from './Projects/Projects'
 import Skills from './Skills/Skills'
 import Experience from './Experience/Experience'
-import Courses from './Courses/Courses'
 import Contact from './Contact/Contact'
 
 class App extends Component {
@@ -20,7 +19,6 @@ class App extends Component {
         <Projects />
         <Skills />
         <Experience />
-        <Courses />
         <Contact />
 
       </main>
