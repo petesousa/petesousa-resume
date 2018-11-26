@@ -9,6 +9,7 @@ const Skills = () => {
       <p>Currently focusing on <span className={styles.blue}>Javascript, React, Redux,</span> Functional Programming, <span className={styles.blue}>semantic HTML</span>, <span className={styles.blue}>CSS Modules</span> and responsive webdesign.</p>
       <h5>Familiar or have worked with:</h5>
       <ul className={styles.teal}>
+        <li>Git</li>
         <li>Node js</li>
         <li>Express</li>
         <li>Angular 4</li>
@@ -17,7 +18,6 @@ const Skills = () => {
         <li>PHP</li>
         <li>Python</li>
         <li>Django</li>
-        <li>Git</li>
       </ul>
       <h3>SOFT SKILLS</h3>
       <ul className={styles.teal}>
